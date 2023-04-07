@@ -1,0 +1,43 @@
+.shopping-cart-panel {
+    position: relative;
+}
+
+.shopping-cart-bubble {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    width: 300px;
+    max-height: 400px; /* Add a maximum height to the bubble */
+    overflow-y: auto; /* Add vertical scrolling to the bubble */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 14px;
+    word-wrap: break-word; /* Add this property to prevent words from breaking outside the bubble */
+}
+
+.shopping-cart-bubble:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.shopping-cart-bubble p {
+    margin: 0;
+}
+
+.shopping-cart-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
