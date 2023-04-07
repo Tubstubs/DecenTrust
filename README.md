@@ -1,8 +1,6 @@
 # DecenTrust
 
-The code presented in this github repository serves as the base for the connection of the website the the blockchain using MetaMask only.
-
-The whole function of the proposed solution is at the given video presentation.
+The code presented in this github repository serves as the base for the connection of the website the the blockchain using MetaMask only - the whole function of the proposed solution is at the given video presentation. This code will show the possibility of connecting to the blockchain for the purpose of buying membership services.
 
 ## Requirements For Initial Setup
 
