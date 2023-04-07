@@ -1,4 +1,4 @@
-# NFT Marketplace
+# DecenTrust
 
 ## Requirements For Initial Setup
 
